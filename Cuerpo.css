@@ -1,0 +1,68 @@
+css
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f8ff; /* Fondo claro */
+}
+
+header {
+    background-color: #003366; /* Azul oscuro */
+    color: white;
+    padding: 20px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline; /* Subrayado al pasar el ratón */
+}
+
+section {
+    padding: 50px 20px;
+    margin: 20px auto;
+    max-width: 800px; /* Ancho máximo para la sección */
+}
+
+#portafolio {
+    background-color: #66b3ff; /* Azul claro para el portafolio */
+    border-radius: 8px; /* Bordes redondeados */
+}
+
+#servicios {
+    background-color: #3399ff; /* Azul medio para servicios */
+    border-radius: 8px;
+}
+
+.servicio {
+    background-color: #99ccff; /* Azul más claro para cada servicio */
+    margin-bottom: 15px;
+    padding: 10px;
+    border-radius: 5px; /* Bordes redondeados en servicios */
+}
+
+h2, h3 {
+    color: #003366; /* Títulos en azul oscuro */
+}
+
+footer {
+    background-color: #003366; /* Azul oscuro para el pie de página */
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+}
